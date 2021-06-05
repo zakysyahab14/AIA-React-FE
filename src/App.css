@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+.tableProduct {
+  width: 100%;
+  /* text-align: justify; */
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: none;
+}
+.headerButton {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+}
+::placeholder {
+  color: black;
+  font-weight: bold;
+  opacity: 1; /* Firefox */
+}
+.inputNoBorder {
+  border: none;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: black;
+}
+.ant-input::placeholder {
+  color: black;
+  font-weight: bold;
+  opacity: 1; /* Firefox */
+}
+.svg-inline--fa {
+  height: 2em;
+}
+.svg-inline--fa.fa-w-10 {
+  width: 1em;
+}
+tr {
+  border-bottom: 1px solid darkgray;
+}
+th {
+  background-color: #c6d7ff;
+}
